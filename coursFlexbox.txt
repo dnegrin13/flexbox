@@ -1,0 +1,44 @@
+Flexbox
+
+
+Définition:
+
+
+Le flexbox est un modèle de disposition trés puissant qui va nous permettre de controler facilement et avec précision l'alignement, la direction, l'ordre et la taille de nos éléments.
+
+
+Conteneur et éléments flexibles
+
+
+Le modèle des flexbox fait la distinction entre deux types de boites auxquelles on va pouvoir appliquer differentes propriétés.
+
+      -Les conteneurs flexibles
+
+      -Les éléments flexibles
+
+Concrètement, nous allons définir un conteneur flexibles en attribuant un "display-flex" à un éléments.
+
+Tous les éléments directement contenus dans ce conteneur (c'est à dire tous les enfants directs) vont alors automatiquement devenir des éléments flexibles.
+
+Nous allons ensuite pouvoir manipuler chaque éléments flexibles de manière indépendante grâce à certaines propriété du modèle des flexbox et / ou leur appliquer des propriétés de disposition en tant que groupe en manipulant le conteneur flexible.
+
+Notez également qu'on va pouvoir créer autant de niveau d'imbrication de conteneurs et d'éléments flexibles que souhaité :
+
+Il va en effet suffire d'ajouter un display : flex à un éléments flexibles pour qu'il serve également de conteneur flexible pour ses propres enfants.
+
+Axe principal et axe secondaire des boites flexibles
+
+En plus de la distinction conteneur flexible / éléments flexibles, vous devez absolument comprendre la notion d'axe principal et d'axe secondaire des boites flexibles.
+
+En effet, le comportement (et le resultat) de la plupart des propriétés liées au modèle des boites flexibles va être intimement lié à cette notion d'axe.
+
+La propriété flex-direction va nous permettre de définir quel va être l'axe principal pour un conteneur flexible et ses éléments flexibles ainsi la direction des éléments le long de cet axe.Le deuxieme axe sera ainsi appelé axe secondaire
+
+
+Donc en flex-direction : row, l'axe principal est l'axe horizontal et le secondaire vertical.
+
+en flex direction : colomn, l'axe principal est l'axe vertical et inversement.
+
+Pour aligner un élément avec l'axe principal on utilise la propriété justify-content, et pour l'axe secondaire l'align-items.
+
+

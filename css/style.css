@@ -1,0 +1,205 @@
+/* .flexbox-row {
+    display: flex;
+    /* Par default display: flex est en flex direction: row*/
+    /* flex-direction: row; */
+    /* Par default le positionnement est en Justify-content: start */
+    /* justify-content: space-around; */
+/* } */
+/* .flexbox-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.flexboxrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.flexboxrow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexboxrow3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 12px;
+}
+
+.flexboxrow4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12px;
+}
+.flexboxrow5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */ 
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+
+
+ /*.carre {
+    width: 11.1vw;
+    height: 11.1vw;
+}
+
+.carre2 {
+    background-color: rgb(177, 40, 177);
+    width: 11.1vw;
+    height: 11.1vw;
+}
+
+
+.carre3 {
+    background-color: rgb(49, 49, 255);
+    width: 11.1vw;
+    height: 11.1vw;
+}
+
+.carre4 {
+    background-color: yellow;
+    width: 11.1vw;
+    height: 11.1vw;
+}
+.carre5 {
+    width: 100vw;
+    height: 14vh;
+}
+.carre6 {
+    width: 100vw;
+    height: 10vh;
+}
+.carre7 {
+    width: 20vw;
+    height: 30vh;
+}
+.carre8 {
+    width: 20vw;
+    height: 30vh;
+}
+.carre9 {
+    width: 20vw;
+    height: 30vh;
+}
+.carre10 {
+    width: 100vw;
+    height: 7vh;
+}
+.square{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+} */
+
+.jaunevert {
+    background-color: chartreuse;
+}
+.jaune {
+    background-color: yellow;
+}
+/* .cadet {
+    background-color: cadetblue;
+} */
+.brun {
+    background-color: brown;
+}
+.gris {
+    background-color: grey;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grey{
+    background-color: grey;
+}
+.div-30vw {
+    width: 40%;
+    height: 52vw;
+}
+.div-40vw {
+    width: 25%;
+    height: 20vw;
+}
+.div-50vw {
+    width: 20%;
+    height: 20vw;
+}
+.div-60vw {
+    width: 20%;
+    height: 20vw;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+.center {
+    justify-content: center;
+}
+
+.flex1 {
+    flex: 1
+}
+
+.flex2 {
+    flex: 2;
+}
+.flex8 {
+    flex: 8;
+}
+
+.order1 {
+    order: 1;
+}
+.order5 {
+    order: 5;
+}
+.grosrectangle {
+    display: flex;
+    justify-content: space-between;
+}
+.groscarre {
+    width: 49vw;
+    height: 49vw;
+    justify-content: space-between;
+}
+.petitrectangle {
+    width: 100%;
+    height: 39%;
+}
+.petitcarre {
+    width: 49%;
+    height: 60%;
+    margin-top: 2%;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brown {
+    background-color: brown;
+}
+.pink {
+    background-color: pink;
+}
+.chartreuse {
+    background-color: chartreuse;
+}
+
