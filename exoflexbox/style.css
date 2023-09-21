@@ -1,4 +1,4 @@
-.enormecontainer {
+/* .enormecontainer {
   display: flex;
   justify-content: space-between;
   align-items: start; 
@@ -11,7 +11,7 @@
 }
 .rectangle1 {
     width: 200vh;
-    height: 10vh;
+    height: 15vh;
 }
 .flex-wrap {
     display: flex;
@@ -19,10 +19,37 @@
     justify-content: space-between;
 }
 .petitcarre {
-    width: 100px;
-    height: 100px;
+    width: 113px;
+    height: 113px;
     margin-top: 5px;
     margin-right: 10px;  
+}
+.containerRectangleBas{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.rectangleBas{
+    height: 820px;
+    width: 250px;
+}
+.containerRectangleDroite{
+    flex-direction: row;
+}
+.rectangleDroite{
+    height: 100px;
+    width: 1880px;
+}
+.containercarre3{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.carre1{
+    height: 200px;
+    width: 200px;
+}
+.margin{
+    margin-right: 125px;
 }
 
 .grey {
@@ -30,4 +57,71 @@
 }
 .brown {
     background-color: brown;
+} */
+.groscontener{
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 10vh;
+    width: 100%;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.groscarre{
+    height: 40vh;
+    width: 30vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: lightsalmon;
+    margin-top: 5px
+}
+.nav{
+    height: 13vh;
+    width: 5vw;
+    background-color: darkblue;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 7px;
+}
+.contenersection{
+    flex-direction: column;
+    display: flex;
+}
+.section1{
+    height: 20vh;
+    width: 25vw;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+}
+.section2{
+    height: 20vh;
+    width: 25vw;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 5px;
+}
+.article{
+    height: 15vh;
+    width: 10vw;
+    background-color: blueviolet;
+    margin-left: 10px;
+}
+.aside{
+    height: 8vh;
+    width: 10vw;
+    background-color: red;
 }
